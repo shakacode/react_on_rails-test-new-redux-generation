@@ -1,0 +1,28 @@
+---
+parser: babel-eslint
+
+extends: eslint-config-shakacode
+
+plugins:
+  - react
+
+globals:
+  __DEBUG_SERVER_ERRORS__: true
+  __SERVER_ERRORS__: true
+
+env:
+  browser: true
+  node: true
+  mocha: true
+
+rules:
+  ### Imports
+  # Can't do next one because of alias in webpack
+  import/no-unresolved: 0
+  import/extensions: [2, { js: "never", jsx: "never" }]
+
+  # https://github.com/benmosher/eslint-plugin-import/issues/340
+  import/no-extraneous-dependencies: 0
+
+  # https://github.com/eslint/eslint/issues/6876 SFC's marked as invalid
+  new-cap: 0
