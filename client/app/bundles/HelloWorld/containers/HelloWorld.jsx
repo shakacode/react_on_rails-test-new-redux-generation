@@ -7,7 +7,7 @@ import * as actions from '../actions/helloWorldActionCreators';
 function mapStateToProps(state) {
   // Which part of the Redux global state does our component want to receive as props?
   // Note the use of `$$` to prefix the property name because the value is of type Immutable.js
-  const { otherState, ...selectedStates } = state
+  const { otherState, ...selectedStates } = state;
   // Revision 161029:
   // specify states to exclude instead of states to include
   return selectedStates;

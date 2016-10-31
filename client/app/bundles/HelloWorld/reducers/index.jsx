@@ -10,7 +10,7 @@ import { combineReducers } from 'redux';
 import $$person from './person';
 
 const rootReducer = combineReducers({
-  $$person
+  $$person,
 });
 // Revision 161029:
 // this dollar sign naming also seems weird to me, because usually I like to
@@ -19,7 +19,7 @@ const rootReducer = combineReducers({
 // dollar signs as prefix. also for me I usually know which one is immutable.
 // but it's more like a preference thing
 
-export default rootReducer
+export default rootReducer;
 // Revision 161029:
 // using combineReducers() to create a root reducer in this file is more
 // straightforward and is usually what people do with redux

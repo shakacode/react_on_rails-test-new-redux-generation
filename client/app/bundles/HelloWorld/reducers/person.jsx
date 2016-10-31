@@ -11,7 +11,7 @@ import actionTypes from '../constants/helloWorldConstants';
 // I think it's better to integrate redux-immutable otherwise they will be
 // stuck on this
 
-function name(state = "John Doe", action) {
+function name(state = 'John Doe', action) {
   const { type, name } = action;
 
   switch (type) {
@@ -22,4 +22,4 @@ function name(state = "John Doe", action) {
   }
 }
 
-export default combineReducers({name: name})
+export default combineReducers({ name });

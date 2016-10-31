@@ -1,5 +1,5 @@
 import { createStore, applyMiddleware } from 'redux';
-import rootReducer from '../reducers/index'
+import rootReducer from '../reducers/index';
 import Immutable from 'immutable';
 
 // See
