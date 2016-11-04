@@ -1,7 +1,7 @@
 import Immutable from 'immutable';
 import actionTypes from '../constants/helloWorldConstants';
 
-const person = (state = Immutable.Map({ name: 'John Doe', }), action) => {
+const person = (state = Immutable.Map({ name: 'John Doe' }), action) => {
   const { type, name } = action;
 
   switch (type) {

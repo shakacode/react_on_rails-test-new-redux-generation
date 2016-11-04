@@ -6,7 +6,7 @@ import * as actions from '../actions/helloWorldActionCreators';
 
 // Which part of the Redux global state does our component want to receive as props?
 // Note the use of `$$` to prefix the property name because the value is of type Immutable.js
-const mapStateToProps = state => ({ $$person: state.$$person });
+const mapStateToProps = (state) => ({ $$person: state.$$person });
 
 // Simple example of a React "smart" component
 const HelloWorld = (props) => {

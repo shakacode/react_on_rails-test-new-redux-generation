@@ -8,7 +8,7 @@ import Immutable from 'immutable';
 // once your app has asynchronous actions.
 import thunkMiddleware from 'redux-thunk';
 
-const configureStore = railsProps => {
+const configureStore = (railsProps) => {
   // This is how we get initial props Rails into redux.
   const initialState = {
     $$person: Immutable.fromJS(railsProps),

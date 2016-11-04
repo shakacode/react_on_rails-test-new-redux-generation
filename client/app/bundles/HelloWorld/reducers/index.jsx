@@ -5,4 +5,4 @@ import { combineReducers } from 'redux';
 // A real world app will likely have many reducers and it helps to organize them in one file.
 import $$person from './person';
 
-export default combineReducers({ $$person, });
+export default combineReducers({ $$person });

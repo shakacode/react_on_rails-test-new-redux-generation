@@ -33,7 +33,7 @@ export default class HelloWorldWidget extends React.Component {
           <input
             type="text"
             value={name}
-            onChange={e => this.handleChange(e)}
+            onChange={(e) => this.handleChange(e)}
           />
         </form>
       </div>
