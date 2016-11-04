@@ -8,9 +8,13 @@
   "scripts": {
     "build:test": "webpack --config webpack.config.js",
     "build:production": "NODE_ENV=production webpack --config webpack.config.js",
-    "build:development": "webpack -w --config webpack.config.js"
+    "build:development": "webpack -w --config webpack.config.js",
+    "eslint": "eslint --ext .js,.jsx ."
   },
-  "cacheDirectories": ["node_modules", "client/node_modules"],
+  "cacheDirectories": [
+    "node_modules",
+    "client/node_modules"
+  ],
   "dependencies": {
     "babel": "^6.5.2",
     "babel-cli": "^6.6.5",
@@ -33,5 +37,6 @@
     "webpack": "^1.12.14"
   },
   "devDependencies": {
+    "eslint-config-shakacode": "^13.0.0"
   }
 }
