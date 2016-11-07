@@ -1,0 +1,3 @@
+export default {
+  HELLO_WORLD_NAME_UPDATE: 'HELLO_WORLD_NAME_UPDATE',
+};
