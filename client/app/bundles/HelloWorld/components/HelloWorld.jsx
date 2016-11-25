@@ -33,7 +33,9 @@ export default class HelloWorld extends React.Component {
             Say hello to:
           </label>
           <input
-            type="text" value={this.state.name} id="name"
+            type="text"
+            value={this.state.name}
+            id="name"
             onChange={(e) => this.updateName(e.target.value)}
           />
         </form>
