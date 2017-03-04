@@ -2138,9 +2138,9 @@ react-dom@^15.4.2:
     loose-envify "^1.1.0"
     object-assign "^4.1.0"
 
-react-on-rails@6.6.0:
-  version "6.6.0"
-  resolved "https://registry.yarnpkg.com/react-on-rails/-/react-on-rails-6.6.0.tgz#8182911801d8ef0642ade3b2f136639239a621f1"
+react-on-rails@^6.7.1:
+  version "6.7.1"
+  resolved "https://registry.yarnpkg.com/react-on-rails/-/react-on-rails-6.7.1.tgz#8e2cb3030883f160ac5a714aefa125ae78cfd9c0"
 
 react-redux@^5.0.3:
   version "5.0.3"
